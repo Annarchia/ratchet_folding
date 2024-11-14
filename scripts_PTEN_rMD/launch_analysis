@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --job-name=analysis_PTEN
+#SBATCH --output=slurm_out/analysis_PTEN.slurm
+#SBATCH --nodelist=jimi
+
+python3 SimAnalysis.py

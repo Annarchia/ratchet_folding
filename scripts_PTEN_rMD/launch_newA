@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --job-name=prova_SCPS
+#SBATCH --output=../prova_SCPS.slurm
+#SBATCH --cpus-per-task=8
+
+python3 newA.py ../../prova/villin/data/iter_1 ../../prova/villin/conf/villin.pdb 
