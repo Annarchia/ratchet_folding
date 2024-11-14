@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=rMD_lysozyme
+#SBATCH --output=slurm_out/fold_1_10ns_1nm.slurm
+#SBATCH --nodelist=eric
+#SBATCH --cpus-per-task=16
+
+python3 SimFolding.py
+#python3 SimAnalysis.py

@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --job-name=analysis_LYSO
+#SBATCH --output=slurm_out/analysis_LYSO.slurm
+#SBATCH --nodelist=jimi
+
+python3 SimAnalysis.py

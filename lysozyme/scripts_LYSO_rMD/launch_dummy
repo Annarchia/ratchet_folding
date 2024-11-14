@@ -1,0 +1,5 @@
+#!/bin/bash
+#SBATCH --job-name=dummy
+#SBATCH --output=../dummy.out
+
+python3 dummy.py
