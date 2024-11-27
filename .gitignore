@@ -162,8 +162,11 @@ cython_debug/
 #.idea/
 
 # Data directories
-lysozyme/LYSO/
+lysozyme/data/
 PrP/data/
-PTEN_WT/data/
-PTEN_Y178D/data/
+PTEN/PTEN_WT/data/
+PTEN/PTEN_Y178D/data/
 villin/data
+HLA-A/data
+# Ignore zip files
+*.zip

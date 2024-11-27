@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --job-name=analysis_SYS
+#SBATCH --output=slurm_out/analysis_SYS.slurm
+#SBATCH --nodelist=jimi
+
+python3 SimAnalysis.py

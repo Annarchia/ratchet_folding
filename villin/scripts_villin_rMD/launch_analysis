@@ -1,6 +1,0 @@
-#!/bin/bash
-#SBATCH --job-name=analysis_villin
-#SBATCH --output=slurm_out/analysis_villin.slurm
-#SBATCH --nodelist=jimi
-
-python3 SimAnalysis.py

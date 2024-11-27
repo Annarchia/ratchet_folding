@@ -1,0 +1,7 @@
+#!/bin/bash
+#SBATCH --job-name=SYS_unfolding
+#SBATCH --output=slurm_out/unfold_3.5nm_.5ns.slurm
+#SBATCH --nodelist=eric
+#SBATCH --cpus-per-task=16
+
+python3 SimUnfolding.py

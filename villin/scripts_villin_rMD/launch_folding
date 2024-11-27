@@ -1,8 +1,0 @@
-#!/bin/bash
-#SBATCH --job-name=rMD_villin_folding
-#SBATCH --output=slurm_out/fold_1nm_2_5ns_1.slurm
-#SBATCH --nodelist=jimi
-# #SBATCH --cpus-per-task=8
-
-python3 SimFolding.py
-#python3 SimAnalysis.py
